@@ -1,7 +1,7 @@
-export default function Home() {
+import Home from "./pages/home/home";
+
+export default function HomePage() {
   return (
-    <>
-    <h2 className="text-4xl font-bold text-center m-8">Cartão Desconto Legal</h2>
-    </>
+    <Home />
   );
 }

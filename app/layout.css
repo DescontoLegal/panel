@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #435938;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #0e0e0e;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #ecf0f1;
+}
+
+.header {
+  background-color: #435938;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
