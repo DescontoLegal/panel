@@ -70,8 +70,8 @@ export default function AddPartnerPage() {
       );
 
       setSuccessMessage("Parceiro cadastrado com sucesso!");
+      alert("Parceiro cadastrado com sucesso!");
 
-      // Resetar campos
       setName("");
       setCnpj("");
       setAddress("");
@@ -84,10 +84,10 @@ export default function AddPartnerPage() {
       setFile(null);
 
       setTimeout(() => {
-        router.push("/");
+        router.push("./list-partner");
       }, 2000);
     } catch (error) {
-      console.error("Erro ao adicionar parceiro:", error);
+      alert("Erro ao adicionar parceiro:", error);
     } finally {
       setLoading(false);
     }
