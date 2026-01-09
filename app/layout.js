@@ -4,8 +4,8 @@ import "./layout.css";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Painel",
-  description: "Cartão Desconto Legal",
+  title: "CDL ADMIN",
+  description: "Painel do ADMIN CDL",
 };
 
 export default function RootLayout({ children }) {
